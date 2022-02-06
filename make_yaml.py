@@ -6,6 +6,7 @@ tables_scheme = {
     'file_path': Path('configuration/tables.yaml'),
     'tables': {
         'speakers': {
+            'description': 'ндекс строк',
             'columns': {
                 'id': {
                     'format': ['int', 'NOT NULL'],
